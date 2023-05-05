@@ -23,6 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: darkcyan;
     padding: .5rem;
     position: relative;
@@ -117,11 +118,13 @@ p,span{
 }
 
 .attribution { 
-    font-size: 11px; 
+    margin-top: 1rem;
+    font-size: .6rem; 
     text-align: center; 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 0%, 96%); 
+    font-size: .8rem; 
 }
 
